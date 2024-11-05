@@ -85898,7 +85898,7 @@ var getLogoLink = function () {
         c.css({
           left: f + "px",
           width: (k[0].naturalWidth * d) / k[0].naturalHeight + "px",
-        });
+        }); 
         if (h) {  // Check if a link is available
             k.wrap("<a href='" + "https://cm-bdu-edu.github.io/thu_vien_sach_BDU/" + "' target='home'></a>"); // Wrap image in anchor tag with link and target
             k.parent().css({ cursor: "pointer" }); // Set cursor to pointer on hover
